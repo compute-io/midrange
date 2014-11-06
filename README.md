@@ -2,7 +2,7 @@ midrange
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Compute the [mid-range](http://en.wikipedia.org/wiki/Mid-range) (mid-extreme) of an array or numeric values.
+> Compute the [mid-range](http://en.wikipedia.org/wiki/Mid-range) (mid-extreme) for an array of numeric values.
 
 The __mid-range__, or __mid-extreme__, is the arithmetic mean of the maximum and minimum values in a data set. It is the midpoint of the range, and a measure of central tendency.
 
