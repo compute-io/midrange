@@ -2,7 +2,9 @@ midrange
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Compute module 
+> Compute the [midrange](http://en.wikipedia.org/wiki/Mid-range) (mid-extreme) of an array or numeric values.
+
+The __midrange__, or __mid-extreme__, is the arithmetic mean of the maximum and minimum values in a data set. It is the midpoint of the range, and a measure of central tendency.
 
 
 ## Installation
@@ -19,18 +21,39 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 To use the module,
 
 ``` javascript
-var foo = require( 'compute-midrange' );
+var midrange = require( 'compute-midrange' );
 ```
 
-#### foo( arr )
+#### midrange( arr[, sorted] )
 
-What does this function do?
+Computes the midrange of a set of numeric values.
 
+``` javascript
+var unsorted = [ 8, 2, 3, 9, 5, 1, 4, 100, 7, 0, 6 ];
+
+var midr = midrange( unsorted );
+// returns 50
+```
+
+If the input `array` is already `sorted` in __ascending__ order, set optional second argument to `true`.
+
+``` javascript
+var sorted = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 100 ];
+
+var midr = midrange( sorted, true );
+// returns 50
+```
 
 ## Examples
 
 ``` javascript
-var foo = require( 'compute-midrange' );
+var data = new Array( 100 );
+
+for ( var i = 0; i < data.length; i++ ) {
+    data[ i ] = Math.round( Math.random()*100 );
+}
+
+console.log( midrange( data ) );
 ```
 
 To run the example code from the top-level application directory,
