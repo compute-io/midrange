@@ -35,7 +35,7 @@ var midr = midrange( unsorted );
 // returns 50
 ```
 
-If the input `array` is already `sorted` in __ascending__ order, set optional second argument to `true`.
+If the input `array` is already `sorted` in __ascending__ order, set the optional second argument to `true`.
 
 ``` javascript
 var sorted = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 100 ];
