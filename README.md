@@ -1,10 +1,10 @@
-midrange
+Midrange
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Compute the [mid-range](http://en.wikipedia.org/wiki/Mid-range) (mid-extreme) for an array of numeric values.
+> Computes the [mid-range](http://en.wikipedia.org/wiki/Mid-range) (mid-extreme) of a numeric array.
 
-The __mid-range__, or __mid-extreme__, is the arithmetic mean of the maximum and minimum values in a data set. It is the midpoint of the range, and a measure of central tendency.
+The __mid-range__, or __mid-extreme__, is the arithmetic mean of the maximum and minimum values in a data set. It is the midpoint of the range and a measure of central tendency.
 
 
 ## Installation
@@ -26,7 +26,7 @@ var midrange = require( 'compute-midrange' );
 
 #### midrange( arr[, sorted] )
 
-Computes the mid-range of a set of numeric values.
+Computes the mid-range of a numeric `array`.
 
 ``` javascript
 var unsorted = [ 8, 2, 3, 9, 5, 1, 4, 100, 7, 0, 6 ];
@@ -43,6 +43,11 @@ var sorted = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 100 ];
 var midr = midrange( sorted, true );
 // returns 50
 ```
+
+## Notes
+
+If the input `array` is empty, returns `NaN`.
+
 
 ## Examples
 

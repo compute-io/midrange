@@ -72,11 +72,11 @@ describe( 'compute-midrange', function tests() {
 	it( 'should compute the midrange', function test() {
 		var data, expected;
 
-		// quartile indices are integers
+		// Quartile indices are integers:
 		data = [ 4, 1, -10, 20, 6, 2, 8, 4, 14 ];
 		expected = 5;
 
-		// unsorted test
+		// Unsorted test:
 		assert.strictEqual( midrange( data ), expected );
 
 		// Sort the data:
@@ -84,7 +84,7 @@ describe( 'compute-midrange', function tests() {
 			return a - b;
 		});
 
-		// sorted test
+		// Sorted test:
 		assert.strictEqual( midrange( data, true ), expected );
 
 	});

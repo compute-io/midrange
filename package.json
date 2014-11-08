@@ -1,7 +1,7 @@
 {
   "name": "compute-midrange",
   "version": "0.0.0",
-  "description": "Compute module ",
+  "description": "Computes the mid-range of a numeric array.",
   "author": {
     "name": "Rebekah Smith",
     "email": "rebekahjs17@gmail.com"
@@ -32,7 +32,7 @@
     "computation",
     "mathematics",
     "statistics",
-    "maths",
+    "math",
     "stats",
     "midrange",
     "range",

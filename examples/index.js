@@ -2,7 +2,7 @@
 
 var midrange = require( './../lib' );
 
-var data = new Array( 1000 );
+var data = new Array( 100 );
 
 for ( var i = 0; i < data.length; i++ ) {
 	data[ i ] = Math.round( Math.random()*100 );
