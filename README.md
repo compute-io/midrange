@@ -4,8 +4,14 @@ Mid-range
 
 > Computes the [mid-range](http://en.wikipedia.org/wiki/Mid-range) (mid-extreme) of a numeric array.
 
-The __mid-range__, or __mid-extreme__, is the arithmetic mean of the maximum and minimum values in a data set. It is the midpoint of the range and a measure of central tendency.
+The __mid-range__, or __mid-extreme__, is the arithmetic mean of the maximum and minimum values in a data set. It is the midpoint of the range and a measure of central tendency. It is defined as
 
+<div class="equation" align="center" data-raw-text="M=\frac{ x_{(N)} + x_{(1)} }{2}." data-equation="eq:midrange">
+	<img src="" alt="Equation for mid-range.">
+	<br>
+</div>
+
+where `x_{(N)}` is the maximum and `x_{(1)}` is the minimum value.
 
 ## Installation
 
