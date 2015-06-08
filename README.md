@@ -24,15 +24,14 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 
 ## Usage
 
-To use the module,
-
 ``` javascript
 var midrange = require( 'compute-midrange' );
 ```
 
 #### midrange( x[, opts] )
 
-Computes the mid-range of a numeric `array`.
+Computes the [mid-range](http://en.wikipedia.org/wiki/Mid-range). `x` may be either an [`array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays), or [`matrix`](https://github.com/dstructs/matrix).
+
 
 ``` javascript
 var unsorted = [ 8, 2, 3, 9, 5, 1, 4, 100, 7, 0, 6 ];
