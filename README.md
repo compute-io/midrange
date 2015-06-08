@@ -7,7 +7,7 @@ Mid-range
 The __mid-range__, or __mid-extreme__, is the arithmetic mean of the maximum and minimum values in a data set. It is the midpoint of the range and a measure of central tendency. It is defined as
 
 <div class="equation" align="center" data-raw-text="M=\frac{ x_{(N)} + x_{(1)} }{2}." data-equation="eq:midrange">
-	<img src="" alt="Equation for mid-range.">
+	<img src="https://cdn.rawgit.com/compute-io/midrange/a7b170caec560a62312238241109d3d483ae0ad6/docs/img/eqn1.svg" alt="Equation for mid-range.">
 	<br>
 </div>
 
