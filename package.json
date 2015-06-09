@@ -1,7 +1,7 @@
 {
   "name": "compute-midrange",
   "version": "1.0.0",
-  "description": "Computes the mid-range of a numeric array.",
+  "description": "Computes the mid-range.",
   "author": {
     "name": "Rebekah Smith",
     "email": "rebekahjs17@gmail.com"
@@ -60,11 +60,11 @@
   },
   "devDependencies": {
     "chai": "3.x.x",
-    "mocha": "2.x.x",
     "coveralls": "^2.11.1",
     "istanbul": "^0.3.0",
     "jshint": "2.x.x",
-    "jshint-stylish": "^1.0.0"
+    "jshint-stylish": "^2.0.0",
+    "mocha": "2.x.x"
   },
   "license": "MIT"
 }
